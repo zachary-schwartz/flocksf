@@ -2,6 +2,6 @@
   <h1>test</h1>
 </body>
 
-layout: page
+layout: default
 title: "test jekyll"
 permalink: /test
