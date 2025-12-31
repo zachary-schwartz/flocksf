@@ -31,11 +31,24 @@ footer {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 10px;
     text-align: center;
-    position: fixed;
     width: 100%;
     bottom: 10px;
     color: #FFFAFF;
+    padding-top: 20px;
 }
+
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
 
 
 .noto-serif {
@@ -47,11 +60,14 @@ footer {
         "wdth" 100;
 }
 
+.mapContainer{
+    padding: 10px;
+}
+
 iframe {
-    width: 40%;
     height: 300px;
-    display: block;
-    margin-top: 7px;
+    border: 0;
+    width: 100%;
 }
 
 .shelf {
@@ -122,6 +138,33 @@ iframe {
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
     background-color: #585858;
+}
+
+.infoShelf{
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+}
+.infoBox {
+    color: #080708;
+    height: 300px;
+    background-color: #145C9E;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    flex: 1;
+}
+
+.title{
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 30px;
+}
+
+.description{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
 }
 
 
