@@ -191,8 +191,8 @@ iframe {
 }
 
 .infoBox {
-    color: #080708;
-    background-color: #145C9E;
+    color: #FFFAFF;
+    background-color: #124374;
     margin-top: 20px;
     margin-left: 10px;
     margin-right: 10px;
@@ -215,9 +215,13 @@ iframe {
     margin-left: 10px;
     margin-right: 10px;
     padding-bottom: 10px;
+
+    a {
+        color: #FFFAFF;
+    }
 }
 
-.ml-embedded{
+.ml-embedded {
     margin-top: 25px;
 }
 

@@ -1,0 +1,86 @@
+ul{
+    padding: 0;
+}
+
+.newsBox {
+    height: fit-content;
+    background-color: #282828;
+    border-radius: 15px;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 550px;
+    justify-self: center;
+}
+
+.newsTitle {
+    margin-bottom: 0px;
+    margin-top: 5px;
+    margin-right: 0px;
+    margin-left: 0px;
+    color: white;
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 25px;
+}
+
+.newsDate {
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    margin: 0;
+    padding-top: 2px;
+    padding-bottom: 7px;
+}
+
+.newsBox {
+    padding-top: 10px;
+    color: white;
+}
+
+.newsBox:hover {
+    background-color: #061e34;
+}
+
+/* .newsImage {
+    width: 150px;
+    margin: 0px;
+    float: right;
+    border: none;
+    outline: none;
+    padding-top: 2px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    outline: none;
+    border: none;
+} */
+
+.newsDesc {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    padding-top: 5px;
+    margin: 0;
+}
+
+body {
+    background-color: #080708;
+}
+
+a.newsLink:any-link {
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width: 600px) {
+    .newsBox {
+        width: calc(100vw - 80px);
+    }
+}
+
+
+/* Color palate 
+080708
+145C9E
+17BEBB
+D8D4D5
+FFFAFF
+*/

@@ -1,9 +1,23 @@
 ---
 layout: default
+custom_head: <link rel="stylesheet" href="/news/index.css">
+custom_head: <link rel="stylesheet" href="/newsBox.css">
 title: "News"
 permalink: /news
-custom_head: <link rel="stylesheet" href="/resources/index.css">
 ---
-<body>
-  <h1 class="resourceTitle">News</h1>
+<h1 class="resourceTitle">News</h1>
+
+<ul>
+  {% for post in site.posts %}
+  <li>
+    <a href="{{ post.url }}" class="newsLink">
+    <div class="newsBox">
+      <h1 class="newsTitle">{{ post.headline }}</h1>
+      <p class="newsDate">{{ post.date | date: "%B %e, %Y" }}</p>
+      <p class="newsDesc">{{ post.description }}
+      </p>
+    </div></a>
+  </li>
+  {% endfor %}
+</ul>
 </body>
