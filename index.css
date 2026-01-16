@@ -217,6 +217,10 @@ iframe {
     padding-bottom: 10px;
 }
 
+.ml-embedded{
+    margin-top: 25px;
+}
+
 .footerFade {
     background-image: linear-gradient(to bottom, #080708, #1b1b1b);
     height: 25px;
