@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "newsTest2"
+title: "Former Teacher Sues City Over Flock ALPRs"
 headline: "Former Teacher Sues City Over Flock ALPRs"
 description: On December 28th 2026 former teacher Micheal Moore filed a class action lawsuit against San
             Francisco,
