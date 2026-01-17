@@ -1,0 +1,22 @@
+body{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+h1{
+    font-family: "Space Grotesk", sans-serif;
+}
+
+button{
+    background-color: #313131;
+    color: white;
+    font-size: 35px;
+    border: none;
+    padding: 5px;
+}
+
+button:hover{
+    background-color: #292929;
+    cursor: hand;
+}
