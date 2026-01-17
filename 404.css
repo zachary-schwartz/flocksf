@@ -1,22 +1,23 @@
-body{
+body {
     background-color: black;
     color: white;
     text-align: center;
 }
 
-h1{
+h1 {
     font-family: "Space Grotesk", sans-serif;
 }
 
-button{
+button {
     background-color: #313131;
     color: white;
     font-size: 35px;
     border: none;
     padding: 5px;
+    margin: 5px;
 }
 
-button:hover{
+button:hover {
     background-color: #292929;
     cursor: hand;
 }
