@@ -169,13 +169,13 @@ iframe {
     background-color: #585858;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 850px) {
     .infoShelf {
         display: block;
     }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 850px) {
     .infoShelf {
         display: flex;
     }
@@ -186,8 +186,9 @@ iframe {
 }
 
 .infoShelf {
-    padding-top: 20px;
+    padding-top: 10px;
     width: 100%;
+    padding-bottom: 10px;
 }
 
 .infoBox {
@@ -204,7 +205,8 @@ iframe {
 .title {
     font-family: "Space Grotesk", sans-serif;
     font-size: 30px;
-    margin: 10px;
+    padding: 10px;
+    margin: 0;
 }
 
 
