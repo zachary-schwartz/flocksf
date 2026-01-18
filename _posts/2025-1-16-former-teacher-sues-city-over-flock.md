@@ -7,6 +7,7 @@ description: On December 28th 2026 former teacher Micheal Moore filed a class ac
             SFPD, and the Chief of Police over their use of Flock ALPRs. The suit, filed in the Federal District
             Court of Northern California, alleges that the city's surveillance program is unconstitutional. 
                 Important case updates will be posted here.
+custom_head: <link rel="stylesheet" href="/news/index.css">
 ---
 
-## Article writing is in progress, for now you can read more on the [San Francisco Standard](https://sfstandard.com/2025/12/29/san-francisco-police-flock-license-plate-cameras-lawsuit/).
+## Article writing is in progress, for now you can read more on the [San Francisco Standard](https://sfstandard.com/2025/12/29/san-francisco-police-flock-license-plate-cameras-lawsuit/){: .article}.

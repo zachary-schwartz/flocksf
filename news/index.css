@@ -1,3 +1,7 @@
 .resourceTitle {
     color: brown;
 }
+
+a.article:any-link {
+    color: white;
+}
