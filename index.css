@@ -272,6 +272,10 @@ footer a:visited {
 
 }
 
+.invert {
+    filter: invert(100%);
+}
+
 /* Color palate 
 080708
 145C9E
