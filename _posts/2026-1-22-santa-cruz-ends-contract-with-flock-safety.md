@@ -1,12 +1,12 @@
 ---
 layout: default
-title: "Santa Cruz ends contract with Flock Safety"
-headline: Santa Cruz ends contract with Flock Safety
+title: "Santa Cruz Ends Contract With Flock Safety"
+headline: Santa Cruz Ends Contract With Flock Safety
 description:  On January 13th the Santa Cruz City Council voted to terminate their contract with Flock Safety over concerns the company was sharing information with immigration enforcement…
 custom_head: <link rel="stylesheet" href="/news/index.css">
 ---
 
-# Santa Cruz ends contract with Flock Safety
+# Santa Cruz Ends Contract With Flock Safety
 On January 13th the Santa Cruz City Council voted to terminate their contract with Flock Safety over concerns the company was sharing information with immigration enforcement. This comes a month after Santa Cruz Police Chief Bernie Escalante admitted that the police department illegally shared camera data with out-of-state police departments, including 190 running searches for ICE. The city’s 8 cameras that track almost 300,000 vehicles per month are set to be removed by mid February.
 
 
