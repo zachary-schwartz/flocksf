@@ -1,3 +1,11 @@
+.pageTitle {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 50px;
+    color: #FFFAFF;
+    width: 100%;
+    text-align: center;
+}
+
 ul{
     padding: 0;
 }
@@ -18,7 +26,6 @@ ul{
     margin-top: 5px;
     margin-right: 0px;
     margin-left: 0px;
-    color: white;
     font-family: "Space Grotesk", sans-serif;
     font-size: 25px;
 }
@@ -34,25 +41,11 @@ ul{
 
 .newsBox {
     padding-top: 10px;
-    color: white;
 }
 
 .newsBox:hover {
     background-color: #061e34;
 }
-
-/* .newsImage {
-    width: 150px;
-    margin: 0px;
-    float: right;
-    border: none;
-    outline: none;
-    padding-top: 2px;
-    padding-left: 20px;
-    padding-bottom: 20px;
-    outline: none;
-    border: none;
-} */
 
 .newsDesc {
     font-family: Arial, Helvetica, sans-serif;
