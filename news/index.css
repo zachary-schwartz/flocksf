@@ -6,12 +6,12 @@
     text-align: center;
 }
 
-a.article:any-link {
+a:any-link {
     color: white;
 }
 
-h1{
-/* title */
+h1 {
+    /* title */
     font-family: "Space Grotesk", sans-serif;
     font-size: 50px;
     color: #FFFAFF;
@@ -19,22 +19,39 @@ h1{
     text-align: center;
 }
 
-h2{
-/* headings */
-color: orange;
+h2,
+h3,
+p,
+h4 {
+    padding-left: 10vw;
+    padding-right: 10vw;
+
 }
 
-h3{
-/* subheadings */
-color: yellow;
+h2 {
+    /* headings */
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 35px;
+    color: #FFFAFF;
 }
 
-p{
-/* normal */
-color: green;
+h3 {
+    /* subheadings */
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 25px;
+    color: #FFFAFF;
 }
 
-h4{
-/* caption */
-color: blue;
+p {
+    /* normal */
+    font-size: 18px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h4 {
+    font-size: 13px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
 }
