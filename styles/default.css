@@ -1,0 +1,143 @@
+/* Start Header and Main */
+
+body {
+    background-color: #080708;
+    width: 100%;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh
+}
+
+main {
+    padding: 20px;
+    flex-grow: 1
+}
+
+
+.noto-serif {
+    font-family: "Noto Serif", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+/* Shelf */
+.shelf {
+    width: 100%;
+    height: 50px;
+    border-bottom: #6c6b6b;
+    border-width: 0;
+    border-bottom-width: 2px;
+    border-style: ridge;
+}
+
+.logo {
+    height: 40px;
+    padding-top: 5px;
+    padding-left: 2px;
+    text-decoration: none;
+}
+
+.logoText {
+    font-family: "Space Grotesk", sans-serif;
+    color: #FFFAFF;
+    display: inline;
+    padding-left: 5px;
+    font-size: 36px;
+    position: relative;
+    bottom: 7px;
+}
+
+.resources {
+    float: right;
+}
+
+.shelfButton {
+    background-color: #FFFAFF;
+    color: #080708;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    height: 50px;
+    float: right;
+}
+
+.shelfButton:hover {
+    background-color: #585858;
+}
+
+/* End Shelf */
+
+
+/* Start Footer */
+
+.footerFade {
+    background-image: linear-gradient(to bottom, #080708, #1b1b1b);
+    height: 25px;
+    width: 100%;
+}
+
+.footerWrapper {
+    padding-top: 5px;
+    background-color: #1b1b1b;
+    padding-bottom: 20px;
+}
+
+footer {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    text-align: center;
+    width: 100%;
+    margin-top: 30px;
+    color: #FFFAFF;
+    position: relative;
+    bottom: 0px;
+}
+
+
+
+footer a:link {
+    color: #FFFAFF;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+footer a:visited {
+    color: #FFFAFF;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.socials {
+    height: 20px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+
+}
+
+.invert {
+    filter: invert(100%);
+}
+
+/* End Footer */
+
+/* Color palate 
+080708
+145C9E
+17BEBB
+D8D4D5
+FFFAFF
+*/
