@@ -49,6 +49,75 @@ iframe {
     border-radius: 7px;
 }
 
+.explainer {
+    width: 100vw-80px;
+    height: fit-content;
+    min-height: 300px;
+    color: white;
+    background-color: #124374;
+    border-radius: 7px;
+    margin: 10px;
+    padding-left: 40px;
+    padding-bottom: 10px;
+    padding-right: 40px;
+    padding-top: 10px;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.explainer h2 {
+    margin-left: 0;
+}
+
+.explainer p {
+    text-indent: 40px;
+}
+
+.explainer img {
+    max-width: 70%;
+    height: auto;
+    outline: none;
+    border: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+
+}
+
+@media screen and (max-width: 850px) {
+    .explainer {
+        display: block;
+    }
+}
+
+@media screen and (min-width: 850px) {
+    .explainer {
+        display: flex;
+    }
+
+    .explainerBox {
+        flex: 1;
+    }
+}
+.imgBox {
+    margin: 0 auto;
+    text-align: center
+}
+
+.imgBox .caption {
+    font-size: small;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5px;
+}
+
+.header{
+    text-align: center;
+    padding-top: 10px;
+    margin: 0px;
+    padding-bottom: 10px;
+}
+
 @media screen and (max-width: 850px) {
     .infoShelf {
         display: block;
@@ -66,7 +135,6 @@ iframe {
 }
 
 .infoShelf {
-    padding-top: 10px;
     width: 100%;
     padding-bottom: 10px;
 }
@@ -74,7 +142,7 @@ iframe {
 .infoBox {
     color: #FFFAFF;
     background-color: #124374;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-left: 10px;
     margin-right: 10px;
     padding-left: 5px;

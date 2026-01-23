@@ -3,7 +3,6 @@ layout: default
 title: "Home"
 permalink: /
 custom_head: <meta name="description" content="Tracking Flock surveillance ALPRs in San Francisco, California.">
-custom_head: <script src="/index.js"></script>
 custom_head: <link rel="stylesheet" href="/styles/home.css">
 ---
 
@@ -13,6 +12,24 @@ custom_head: <link rel="stylesheet" href="/styles/home.css">
     <h3>Location Map</h3>
     <div class="mapContainer"><iframe
             src="https://umap.openstreetmap.fr/en/map/flock-sf_1337724#11/37.7563/-122.43924"></iframe></div>
+
+    <div class="explainer">
+        <div class="explainerBox">
+            <h2>What is Flock?</h2>
+            <p>Flock is a brand of Automated License Plate Reader (ALPR) that has spread all over the US in the last few
+                years. In total it is estimated that there are around 100,000 cameras which in total scan 20 billion
+                license plates per month. What makes Flock different then many other ALPR companies is how they share
+                data. Flock automatically shares camera data with other police departments, allowing them to search for
+                license plates across the country.</p>
+        </div>
+        <div class="explainerBox">
+            <div class="imgBox">
+                <img src="/images/camera.jpg">
+                <div class="caption">Typical Flock camera setup</div>
+            </div>
+        </div>
+    </div>
+<h2 class="header">Why is Flock a problem?</h2>
     <div class="infoShelf">
         <div class="infoBox">
             <p class="title">Poor Security</p>
@@ -39,14 +56,15 @@ custom_head: <link rel="stylesheet" href="/styles/home.css">
             <p class="title">False Identification</p>
             <p class="description">Officers have acted on faulty warrant identifications by flock cameras,
                 putting
-                innocent citizens in danger. For example, <a href="https://www.youtube.com/watch?v=VlHL7bhMb1M">a man
+                innocent citizens in danger. For example, <a href="https://www.youtube.com/watch?v=VlHL7bhMb1M">a
+                    man
                     was falsely arrested in Seattle</a>
-                when his car was flagged by a flock camera because his son (who has the same) had a felony
+                when his car was flagged by a flock camera because his son (who has the same name) had a felony
                 warrant.</p>
         </div>
         <div class="infoBox">
             <p class="title">Cooperation with ICE</p>
-            <p class="description">From April 2024 to early 2025 SFPD illegally shared camera access with police
+            <p class="description">From April 2024 to early 2025 SFPD illegally (State law prohibits out of state sharing) shared camera access with police
                 departments in Georgia and Texas who assisted in immigrations enforcement. SFPD data was
                 accessed in searches such as "Ice Fugitive" and "Assist ICE" by the aforementioned police
                 departments. Read more on <a
@@ -55,4 +73,4 @@ custom_head: <link rel="stylesheet" href="/styles/home.css">
         </div>
     </div>
     <div class="ml-embedded" data-form="WcJKSA"></div>
-    </div>
+</div>
