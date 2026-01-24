@@ -12,10 +12,10 @@ custom_head: <link rel="stylesheet" href="/styles/home.css">
     <h3>Location Map</h3>
     <div class="mapContainer"><iframe
             src="https://umap.openstreetmap.fr/en/map/flock-sf_1337724#11/37.7563/-122.43924"></iframe></div>
+    <h2 class="header">What is Flock?</h2>
 
     <div class="explainer">
         <div class="explainerBox">
-            <h2>What is Flock?</h2>
             <p>Flock is a brand of Automated License Plate Reader (ALPR) that has spread all over the US in the last few
                 years. In total it is estimated that there are around 100,000 cameras which in total scan 20 billion
                 license plates per month. What makes Flock different then many other ALPR companies is how they share
@@ -29,7 +29,7 @@ custom_head: <link rel="stylesheet" href="/styles/home.css">
             </div>
         </div>
     </div>
-<h2 class="header">Why is Flock a problem?</h2>
+    <h2 class="header">Why is Flock a problem?</h2>
     <div class="infoShelf">
         <div class="infoBox">
             <p class="title">Poor Security</p>
@@ -64,7 +64,8 @@ custom_head: <link rel="stylesheet" href="/styles/home.css">
         </div>
         <div class="infoBox">
             <p class="title">Cooperation with ICE</p>
-            <p class="description">From April 2024 to early 2025 SFPD illegally (State law prohibits out of state sharing) shared camera access with police
+            <p class="description">From April 2024 to early 2025 SFPD illegally (State law prohibits out of state
+                sharing) shared camera access with police
                 departments in Georgia and Texas who assisted in immigrations enforcement. SFPD data was
                 accessed in searches such as "Ice Fugitive" and "Assist ICE" by the aforementioned police
                 departments. Read more on <a
@@ -72,5 +73,33 @@ custom_head: <link rel="stylesheet" href="/styles/home.css">
             </p>
         </div>
     </div>
+    <h2 class="header">What can you do?</h2>
+    <h3 class="letter">Stay Informed With Our Newsletter:</h3>
     <div class="ml-embedded" data-form="WcJKSA"></div>
+    <div class="learn">
+        <div class="learnBox">
+            <h3>Learn more from various resources:</h3>
+                <div class="newsBox">
+                                <a href="/resources" class="newsLink">
+
+                    <h1 class="newsTitle">Resources</h1>
+                    <p class="newsDesc">A list of websites, videos and articles to learn about how ALPRs function and
+                        operate.</p>
+                            </a>
+                </div>
+        
+        </div>
+        <div class="learnBox">
+            <h3>Read our latest article:</h3>
+            {% for post in site.posts limit:1 %}
+            <a href="{{ post.url }}" class="newsLink">
+                <div class="newsBox">
+                    <h1 class="newsTitle"> {{ post.headline }}</h1>
+                    <p class="newsDate">{{ post.date | date: "%B %e, %Y" }}</p>
+                    <p class="newsDesc">{{ post.description }}</p>
+                    </a>
+                </div>
+                {% endfor %}
+        </div>
+    </div>
 </div>
