@@ -9,6 +9,7 @@ custom_head: <link rel="stylesheet" href="/styles/home.css">
 <div class="wrapper">
     <h1>DeFlock SF</h1>
     <h2 class="subtitle">Information about flock surveillance in San Francisco</h2>
+    <img class="event" src="images/eventposter.png">
     <h3>Location Map - 331/505 Discovered</h3>
     <div class="mapContainer"><iframe
             src="https://umap.openstreetmap.fr/en/map/flock-sf_1337724#11/37.7563/-122.43924"></iframe></div>
@@ -79,15 +80,15 @@ custom_head: <link rel="stylesheet" href="/styles/home.css">
     <div class="learn">
         <div class="learnBox">
             <h3>Learn more from various resources:</h3>
-                <div class="newsBox">
-                                <a href="/resources" class="newsLink">
+            <div class="newsBox">
+                <a href="/resources" class="newsLink">
 
                     <h1 class="newsTitle">Resources</h1>
                     <p class="newsDesc">A list of websites, videos and articles to learn about how ALPRs function and
                         operate.</p>
-                            </a>
-                </div>
-        
+                </a>
+            </div>
+
         </div>
         <div class="learnBox">
             <h3>Read our latest article:</h3>
@@ -97,10 +98,10 @@ custom_head: <link rel="stylesheet" href="/styles/home.css">
                     <h1 class="newsTitle"> {{ post.headline }}</h1>
                     <p class="newsDate">{{ post.date | date: "%B %e, %Y" }}</p>
                     <p class="newsDesc">{{ post.description }}</p>
-                    </a>
-                </div>
-                {% endfor %}
+            </a>
         </div>
+        {% endfor %}
     </div>
+</div>
 
 </div>
