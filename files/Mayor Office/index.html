@@ -1,0 +1,54 @@
+---
+layout: default
+title: Flock Files
+---
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Flock Files - Mayor's Office</title>
+
+    <style>
+        body {
+            font-family: sans-serif;
+            line-height: 1.6;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        a {
+            color: #0366d6;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Flock Files - Mayor's Office</h1>
+    <ul>
+        {% for file in site.static_files %}
+        {% if file.path contains '/files/Mayor Office' %}
+        <li>
+            <a href="{{ site.baseurl }}{{ file.path }}">
+                {{ file.name }}
+            </a>
+        </li>
+        {% endif %}
+        {% endfor %}
+    </ul>
+</body>
+
+</html>

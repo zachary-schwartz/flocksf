@@ -1,0 +1,90 @@
+---
+layout: default
+title: Flock Files
+---
+
+<!DOCTYPE html>
+<!-- I'm sorry this page is vibe coded -->
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Flock Files</title>
+
+    <style>
+        body {
+            font-family: sans-serif;
+            line-height: 1.6;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        li {
+            margin-bottom: 8px;
+            display: flex;
+            align-items: center;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .icon {
+            margin-right: 8px;
+            font-style: normal;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Flock Files</h1>
+    <p>Archive of (mostly government) files related to Flock in San Francisco. Mainly sourced from press releases and
+        records requests.</p>
+
+    <ul>
+        {% assign dir_list = "" %}
+        {% for file in site.static_files %}
+        {% if file.path contains '/files/' %}
+        {% assign file_sub_path = file.path | split: '/files/' | last %}
+        {% if file_sub_path contains '/' %}
+        {% assign dir_name = file_sub_path | split: '/' | first %}
+        {% assign dir_list = dir_list | append: dir_name | append: "," %}
+        {% endif %}
+        {% endif %}
+        {% endfor %}
+
+        {% assign unique_dirs = dir_list | split: "," | uniq | sort %}
+
+        {% for dir in unique_dirs %}
+        <li>
+            <span class="icon">📁</span>
+            <a href="{{ site.baseurl }}/files/{{ dir }}/">
+                {{ dir | replace: "-", " " | replace: "_", " " | capitalize }}/
+            </a>
+        </li>
+        {% endfor %}
+
+        {% for file in site.static_files %}
+        {% if file.path contains '/files/' %}
+        {% assign file_sub_path = file.path | split: '/files/' | last %}
+        {% unless file_sub_path contains '/' %}
+        <li>
+            <span class="icon">📄</span>
+            <a href="{{ site.baseurl }}{{ file.path }}">
+                {{ file.name }}
+            </a>
+        </li>
+        {% endunless %}
+        {% endif %}
+        {% endfor %}
+    </ul>
+</body>
+
+</html>
