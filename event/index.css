@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 20px;
+}
+
+h2{
+    padding: 5px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+h3{ 
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+.posterButton{
+    margin-top: 30px;
+    font-size: 32px;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    border: 0px;
+}
+
+.posterButton:hover{
+background-color: rgb(112, 112, 112);
+}
+
+.posterButton:active{
+    background-color: rgb(55, 55, 55);
+}
