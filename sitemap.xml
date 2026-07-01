@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="https://www.xml-sitemaps.com/css/sitemap.css"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
+  xmlns:fo="http://www.w3.org/1999/XSL/Format"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+
+<url>
+  <loc>https://deflocksf.org/</loc>
+  <lastmod>2026-07-01T08:54:17+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://deflocksf.org/resources</loc>
+  <lastmod>2026-07-01T08:54:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://deflocksf.org/news</loc>
+  <lastmod>2026-07-01T08:54:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://deflocksf.org/2026/07/01/the-40-law-enforcement-agencies-sfpd-illegally-shared-data-with.html</loc>
+  <lastmod>2026-07-01T08:54:17+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://deflocksf.org/receipts</loc>
+  <lastmod>2026-07-01T08:54:17+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://deflocksf.org/files/</loc>
+  <lastmod>2026-07-01T08:54:17+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://deflocksf.org/2026/02/05/mountain-view-suspends-flock-pilot-program.html</loc>
+  <lastmod>2026-07-01T08:54:17+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://deflocksf.org/2026/01/28/former-teacher-drops-case-against-city-over-flock.html</loc>
+  <lastmod>2026-07-01T08:54:17+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://deflocksf.org/2026/01/22/santa-cruz-ends-contract-with-flock-safety.html</loc>
+  <lastmod>2026-07-01T08:54:17+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://deflocksf.org/2026/01/16/former-teacher-sues-city-over-flock.html</loc>
+  <lastmod>2026-07-01T08:54:17+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://deflocksf.org/files/Police%20Documents/6-17-26%20NCRIC%20ALPR%20Audit%20OCR.pdf</loc>
+  <lastmod>2026-07-01T08:54:17+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://deflocksf.org/files/2023-flock-safety-contract.pdf</loc>
+  <lastmod>2026-07-01T08:54:17+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://deflocksf.org/files/Mayor%20Office/</loc>
+  <lastmod>2026-07-01T08:54:17+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://deflocksf.org/files/Police%20Documents/</loc>
+  <lastmod>2026-07-01T08:54:17+00:00</lastmod>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>https://deflocksf.org/files/Mayor%20Office/2-9-24%20RE__MTA_PUC_contact_Redacted.pdf</loc>
+  <lastmod>2026-07-01T08:54:17+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://deflocksf.org/files/Mayor%20Office/5-12-24%20San%20Francisco's%20New%20Public%20Safety%20Camera%20Technology%20Delivering%20Early%20Results%20_%20SF.gov.pdf</loc>
+  <lastmod>2026-07-01T08:54:17+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://deflocksf.org/files/Police%20Documents/2-18-26%20PoliceCommission%2021826-DRB_Q3_2025_Presentation.pdf</loc>
+  <lastmod>2026-07-01T08:54:17+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://deflocksf.org/files/Police%20Documents/3-20-24%2024-052%20Automated%20License%20Plate%20Reader%20(ALPR)%20Technology_%20Flock%20Safety%20Camera%20Rollout%20_%20San%20Francisco%20Police%20Department.pdf</loc>
+  <lastmod>2026-07-01T08:54:17+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+<url>
+  <loc>https://deflocksf.org/files/Police%20Documents/SFPDALPRSureveillanceTechnologyPolicy_Edited_20240221.pdf</loc>
+  <lastmod>2026-07-01T08:54:17+00:00</lastmod>
+  <priority>0.41</priority>
+</url>
+
+</urlset>
