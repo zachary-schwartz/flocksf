@@ -96,7 +96,7 @@ custom_head: <link rel="preconnect" href="https://openstreetmap.fr">
         <div class="learnBox">
             <h3>Read our latest article:</h3>
             {% for post in site.posts limit:1 %}
-            <a href="{{ post.url }}" class="newsLink">
+            <a aria-label="Latest article" href="{{ post.url }}" class="newsLink">
                 <div class="newsBox">
                     <h1 class="newsTitle"> {{ post.headline }}</h1>
                     <p class="newsDate">{{ post.date | date: "%B %e, %Y" }}</p>
