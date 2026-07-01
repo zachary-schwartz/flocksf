@@ -11,6 +11,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Space+Grotesk:wght@700&display=swap"
         rel="stylesheet">
+    <meta name="description"
+        content="{% if page.description %}{{ page.description | xml_escape }}{% else %}{{ site.description | xml_escape }}{% endif %}">
 
     {% if page.custom_head %}
     {{ page.custom_head }}
