@@ -11,7 +11,6 @@ a:any-link {
 }
 
 h1 {
-    /* title */
     font-family: "Space Grotesk", sans-serif;
     font-size: 50px;
     color: #FFFAFF;
@@ -58,7 +57,7 @@ h4 {
 
 
 ul {
-    width: 500px;
+    max-width: 500px;
     margin: 0 auto;
     font-size: 18px;
     color: white;
