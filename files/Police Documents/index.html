@@ -42,6 +42,7 @@ title: Flock Files
         {% for file in site.static_files %}
         {% if file.path contains '/files/Police Documents' %}
         <li>
+            <span class="icon">📄</span>
             <a href="{{ site.baseurl }}{{ file.path }}">
                 {{ file.name }}
             </a>

@@ -65,7 +65,7 @@ title: Flock Files
         {% for dir in unique_dirs %}
         <li>
             <span class="icon">📁</span>
-            <a href="{{ site.baseurl }}/files/{{ dir }}/">
+            <a style="color: #0366d6;" href="{{ site.baseurl }}/files/{{ dir }}/">
                 {{ dir | replace: "-", " " | replace: "_", " " | capitalize }}/
             </a>
         </li>
@@ -77,7 +77,7 @@ title: Flock Files
         {% unless file_sub_path contains '/' %}
         <li>
             <span class="icon">📄</span>
-            <a href="{{ site.baseurl }}{{ file.path }}">
+            <a style="color: #0366d6;" href="{{ site.baseurl }}{{ file.path }}">
                 {{ file.name }}
             </a>
         </li>

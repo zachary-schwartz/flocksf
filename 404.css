@@ -4,8 +4,14 @@ body {
     text-align: center;
 }
 
-h1 {
+h2 {
     font-family: "Space Grotesk", sans-serif;
+}
+
+h1{
+    font-size: 70px;
+    font-family: "Space Grotesk", sans-serif;
+    margin: 20px;
 }
 
 button {
