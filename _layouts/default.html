@@ -3,22 +3,32 @@
 
 <head>
     <link rel="stylesheet" href="/styles/default.css">
-    <title>{{ page.title }} | DeFlock SF</title>
 
-    {% if page.custom_head %}
-    {{ page.custom_head }}
-    {% endif %}
+    {% if page.url == "/" %}
+    <title>DeFlock SF</title>
+</head>
+{% else %}
+<title>{{ page.title }} | DeFlock SF</title>
+{% endif %}
 
-    <script src="/index.js" defer></script>
-    <link rel="icon" type="image/x-icon" href="/images/favicon.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="preload" href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Space+Grotesk:wght@700&display=swap"
-        as="style" onload="this.onload=null;this.rel='stylesheet'">
-    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Space+Grotesk:wght@700&display=swap"></noscript>
-    <meta name="description"
-        content="{% if page.description %}{{ page.description | xml_escape }}{% else %}{{ site.description | xml_escape }}{% endif %}">
+{% if page.custom_head %}
+{{ page.custom_head }}
+{% endif %}
+
+<script src="/index.js" defer></script>
+<link rel="icon" type="image/x-icon" href="/images/favicon.png">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload"
+    href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Space+Grotesk:wght@700&display=swap" as="style"
+    onload="this.onload=null;this.rel='stylesheet'">
+<noscript>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Noto+Serif&family=Space+Grotesk:wght@700&display=swap">
+</noscript>
+<meta name="description"
+    content="{% if page.description %}{{ page.description | xml_escape }}{% else %}{{ site.description | xml_escape }}{% endif %}">
 </head>
 
 <body>
@@ -48,9 +58,10 @@
                 <a href="https://www.youtube.com/@deflocksf" target="_blank" rel="noopener noreferrer"><img
                         alt="YouTube Link" class="socials" src="/images/youtube.svg"></img></a>
                 <br>
-                    <p>Not associated with Flock Safety, Flock Group Inc, or any public agency.
+                <p>Not associated with Flock Safety, Flock Group Inc, or any public agency.
                     <a class="footer" href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank"
-                        rel="noopener noreferrer">CC BY-NC-SA</a></p>
+                        rel="noopener noreferrer">CC BY-NC-SA</a>
+                </p>
             </div>
         </footer>
     </div>
