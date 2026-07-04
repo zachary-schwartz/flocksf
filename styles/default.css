@@ -127,7 +127,6 @@ footer {
 }
 
 
-
 footer a:link {
     color: #FFFAFF;
     background-color: transparent;
@@ -151,13 +150,3 @@ footer a:visited {
 .invert {
     filter: invert(100%);
 }
-
-/* End Footer */
-
-/* Color palate 
-080708
-145C9E
-17BEBB
-D8D4D5
-FFFAFF
-*/
