@@ -112,6 +112,10 @@ iframe {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.explainer a {
+    color: white;
+}
+
 .explainer p {
     text-indent: 40px;
 }

@@ -18,16 +18,19 @@ custom_head: <link rel="stylesheet" href="/styles/home.css">
     <div class="explainer">
         <div class="explainerBox">
             <p>Flock is a brand of Automated License Plate Reader (ALPR) that has spread all over the US in the last few
-                years. In total it is estimated that there are around 100,000 cameras which in total scan 20 billion
+                <!-- years. In total it is estimated that there are around 100,000 cameras which in total scan 20 billion -->
                 license plates per month. What makes Flock different then many other ALPR companies is how they share
                 data. Flock automatically shares camera data with other police departments, allowing them to search for
-                license plates across the country.</p>
+                license plates across the country.
+            </p>
+            <p>SFPD has installed around 500 cameras around the city, making it near impossible to keep your vehicle
+                from being tracked. So far <a href="/receipts">SFPD has spent</a> nearly $4 million of taxpayer money for this system, with a yearly renewal cost of $1.2 million.
+            </p>
         </div>
         <div class="explainerBox">
             <div class="imgBox">
                 <img alt="Image of a typical Flock camera setup on a pole"
-                    srcset="/images/camera_small.jpg 600w, /images/camera.jpg 1200w"
-                    sizes="(max: 600px) 100vw, 70vw">
+                    srcset="/images/camera_small.jpg 600w, /images/camera.jpg 1200w" sizes="(max: 600px) 100vw, 70vw">
                 <div class="caption">Typical Flock camera setup</div>
             </div>
         </div>
@@ -86,7 +89,8 @@ custom_head: <link rel="stylesheet" href="/styles/home.css">
                 <a href="/calendar" class="newsLink">
 
                     <h1 class="newsTitle">Calendar</h1>
-                    <p class="newsDesc">Calendar and schedule of every Flock and ALPR related event in the San Francisco, Bay Area.</p>
+                    <p class="newsDesc">Calendar and schedule of every Flock and ALPR related event in the San
+                        Francisco, Bay Area.</p>
                 </a>
             </div>
 
@@ -101,7 +105,7 @@ custom_head: <link rel="stylesheet" href="/styles/home.css">
                     <p class="newsDesc">{{ post.description }}</p>
             </a>
         </div>
-        
+
         {% endfor %}
     </div>
 </div>
