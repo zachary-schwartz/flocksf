@@ -1,3 +1,13 @@
+@font-face {
+    font-family: 'Redaction 50';
+    src: url('Redaction50-Regular.woff2') format('woff2'),
+        url('Redaction50-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
 /* Start Header and Main */
 
 body {
