@@ -45,9 +45,10 @@ title: Flock Files
 
 <body>
     <h1 style="font-family: 'Redaction 50', sans-serif; letter-spacing: 2px; font-size: 50px; margin: 0; text-align: center;">Flock Files</h1>
-    <p>Archive of (mostly government) files related to Flock in San Francisco. Mainly sourced from press releases and
+    <p style="text-align: center;">Archive of (mostly government) files related to Flock in San Francisco. Mainly sourced from press releases and
         records requests.</p>
 
+        <div style="width: 100%; justify-items: center; padding-top: 5px; padding-bottom: 5px;">
     <ul>
         {% assign dir_list = "" %}
         {% for file in site.static_files %}
@@ -85,6 +86,7 @@ title: Flock Files
         {% endif %}
         {% endfor %}
     </ul>
+    </div>
 </body>
 
 </html>
