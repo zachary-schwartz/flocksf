@@ -65,28 +65,40 @@ main {
     font-family: "Space Grotesk", sans-serif;
     color: #FFFAFF;
     display: inline;
-    padding-left: 5px;
+    padding-right: 5px;
     position: relative;
     bottom: 7px;
+}
+
+@media screen and (min-width: 500px) {
+    .logoText {
+        font-size: 36px;
+        visibility: visible;
+        padding-left: 5px;
+    }
 }
 
 @media screen and (max-width: 500px) {
     .logoText {
         font-size: 27px;
         top: -10px;
+        visibility: visible;
+        padding-left: 5px;
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 380px) {
     .logoText {
-        font-size: 20px;
-        top: -10px;
+        font-size: 18px;
+        top: -13px;
+        visibility: visible;
+        padding-left: 0px;
     }
 }
 
-@media screen and (min-width: 500px) {
+@media screen and (max-width: 328px) {
     .logoText {
-        font-size: 36px;
+        display: none;
     }
 }
 
