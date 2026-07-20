@@ -318,6 +318,12 @@ a.newsLink:any-link {
     color: white;
 }
 
+a.newsLink{
+        width: 550px;
+        display:inline-block;
+        text-align: center;
+}
+
 @media screen and (max-width: 600px) {
     .newsBox {
         width: calc(100vw - 80px);

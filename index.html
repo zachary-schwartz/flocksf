@@ -25,7 +25,8 @@ custom_head: <link rel="stylesheet" href="/styles/home.css">
                 license plates across the country.
             </p>
             <p>SFPD has installed around 500 cameras around the city, making it near impossible to keep your vehicle
-                from being tracked. So far <a href="/receipts">SFPD has spent</a> nearly $4 million of taxpayer money for this system, with a yearly renewal cost of $1.2 million.
+                from being tracked. So far <a href="/receipts">SFPD has spent</a> nearly $4 million of taxpayer money
+                for this system, with a yearly renewal cost of $1.2 million.
             </p>
         </div>
         <div class="explainerBox">
@@ -86,14 +87,16 @@ custom_head: <link rel="stylesheet" href="/styles/home.css">
     <div class="learn">
         <div class="learnBox">
             <h3>Check out upcoming events:</h3>
-            <div class="newsBox">
-                <a href="/calendar" class="newsLink">
+            <a href="/calendar" class="newsLink">
+
+                <div class="newsBox">
 
                     <h1 class="newsTitle">Calendar</h1>
                     <p class="newsDesc">Calendar and schedule of every Flock and ALPR related event in the San
                         Francisco, Bay Area.</p>
-                </a>
-            </div>
+                </div>
+            </a>
+
 
         </div>
         <div class="learnBox">
@@ -104,11 +107,10 @@ custom_head: <link rel="stylesheet" href="/styles/home.css">
                     <h1 class="newsTitle"> {{ post.headline }}</h1>
                     <p class="newsDate">{{ post.date | date: "%B %e, %Y" }}</p>
                     <p class="newsDesc">{{ post.description }}</p>
+                </div>
             </a>
         </div>
 
         {% endfor %}
     </div>
-</div>
-
 </div>
