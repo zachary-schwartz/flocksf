@@ -330,7 +330,7 @@ a.newsLink{
 
 a.newsLink{
         width: 550px;
-        display:block;
+        display: inline-block;
         text-align: center;
 }
 
@@ -340,7 +340,6 @@ a.newsLink{
     }
     a.newsLink{
         width: calc(100vw - 80px);
-        display:block;
     }
 }
 
