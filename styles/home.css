@@ -324,13 +324,23 @@ a.newsLink:any-link {
 
 a.newsLink{
         width: 550px;
-        display:inline-block;
+        display: block;
+        text-align: center;
+}
+
+a.newsLink{
+        width: 550px;
+        display:block;
         text-align: center;
 }
 
 @media screen and (max-width: 600px) {
     .newsBox {
         width: calc(100vw - 80px);
+    }
+    a.newsLink{
+        width: calc(100vw - 80px);
+        display:block;
     }
 }
 
