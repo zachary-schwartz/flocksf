@@ -1,0 +1,19 @@
+h1 {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 50px;
+    color: #FFFAFF;
+    width: 100%;
+    text-align: center;
+}
+
+.text {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 18px;
+    color: #FFFAFF;
+    width: 100%;
+    text-align: center;
+}
+
+a {
+    color: #FFFAFF;
+}

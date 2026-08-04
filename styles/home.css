@@ -1,5 +1,5 @@
 h1 {
-    font-family: "Space Grotesk", sans-serif;
+    font-family: "Space Grotesk Title", sans-serif;
     font-size: 50px;
     color: #FFFAFF;
     width: 100%;
@@ -20,6 +20,10 @@ h3 {
     margin-left: 10px;
     font-size: 20px;
     margin-bottom: 0px;
+    
+    a {
+        color: white;
+    }
 }
 
 .subtitle {
@@ -318,8 +322,23 @@ a.newsLink:any-link {
     color: white;
 }
 
+a.newsLink{
+        width: 550px;
+        display: block;
+        text-align: center;
+}
+
+a.newsLink{
+        width: 550px;
+        display: inline-block;
+        text-align: center;
+}
+
 @media screen and (max-width: 600px) {
     .newsBox {
+        width: calc(100vw - 80px);
+    }
+    a.newsLink{
         width: calc(100vw - 80px);
     }
 }
