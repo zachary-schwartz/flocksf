@@ -89,6 +89,8 @@ body:has(.event:hover) .eventHoverText {
     visibility: hidden;
     z-index: 10;
     pointer-events: none;
+    text-align: center;
+    padding: 10px;
 }
 
 
