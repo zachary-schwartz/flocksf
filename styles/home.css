@@ -88,7 +88,6 @@ body:has(.event:hover) .eventHoverText {
     background-color: #000000ae;
     visibility: hidden;
     z-index: 10;
-    pointer-events: none;
     text-align: center;
     padding: 10px;
 }
@@ -346,3 +345,13 @@ a.newsLink{
 }
 
 /* end newsbox css */
+/* reCAPTCHA Fixes */
+  .grecaptcha-badge { 
+    z-index: 1 !important; 
+  }
+  
+  .ml-embedded button {
+    position: relative !important;
+    z-index: 999 !important;
+    pointer-events: auto !important;
+  }
