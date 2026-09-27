@@ -1,0 +1,25 @@
+main {
+max-width: 800px;
+margin-left: 20px;
+margin-right: 20px;
+margin-inline: auto;
+}
+
+h1 {
+    font-family: "Space Grotesk", sans-serif;
+    font-size: 50px;
+    color: #FFFAFF;
+    width: 100%;
+    text-align: center;
+}
+
+p, h2, h3, h4, li, b, table, th, td {
+    font-family: arial, sans-serif;
+}
+
+th, td{
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+  width: 250px;
+}

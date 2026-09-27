@@ -1,0 +1,267 @@
+---
+layout: default
+title: "OpSec for Personal Safety"
+permalink: /resources/opsec
+custom_head: <link rel="stylesheet" href="/resources/opsec/index.css">
+---
+
+<body>
+    <main>
+        <h1>OpSec for Personal Safety</h1>
+        <h3>A Working Checklist</h3>
+        <p><b>How to use this:</b> This isn't something to complete top to bottom in one sitting. It's a reference to
+            come
+            back to. Items marked 🔧 <b>ADVANCED</b> need more technical comfort - skip them for now if they don't make
+            sense, and ask someone at your table who might know. Items marked ⭐ are the highest-impact, lowest-effort
+            changes - start there.
+            <br> <br>
+            This is general education, not legal advice. Laws on searches, recording,
+            protest, and privacy vary a lot by
+            location - if you have specific legal exposure, talk to a lawyer who knows your situation.
+        </p>
+        <h2>Part 1 - The Mindset (Read This First)</h2>
+        <p>OpSec is a <b>process</b>, not a product. No app or setting makes you "secure" - it's about consistently
+            asking a few questions and adjusting your behavior.
+            <br> <br>
+            <b>The core questions, in order:</b>
+        </p>
+        <ol>
+            <li><b>What am I actually trying to protect?</b> (Your location, your identity, your associations, specific
+                plans,
+                communications content...)</li>
+            <li><b>Who am I protecting it from?</b> Be specific - a nosy family member, an employer, a stalker or
+                abuser, local police, a more organized/resourced group, or a state actor are all very different threats
+                requiring different responses.</li>
+            <li><b>What do they actually want, and what can they actually do?</b> Match your effort to real capability,
+                not
+                worst-case imagination.</li>
+            <li><b>What happens if it fails?</b> How bad, realistically?</li>
+            <li><b>What's it going to cost me to protect it?</b> Time, convenience, money, relationships. Perfect
+                security that
+                you abandon after a week protects no one.</li>
+
+        </ol>
+        <ul>
+            <li>⭐ Write down, just for yourself, who your realistic "adversary" is and what they want - this shapes
+                everything else on this list</li>
+            <li>Accept that perfect OpSec doesn't exist - the goal is raising cost and reducing the avoidable risk, not
+                becoming invisible</li>
+            <li>Build small, sustainable habits rather than a huge one-time lockdown you won't maintain</li>
+            <li>Review your threat model periodically - it changes as your situation and activities change</li>
+        </ul>
+        <h2>Part 2 - Know What's Already Out There (Digital Footprint)</h2>
+        <p>Before locking things down, find out what's already visible. You can't protect what you don't know is
+            exposed.</p>
+        <ul>
+            <li>⭐ Search your own name (plus city, employer, known usernames), logged out and in a private/incognito
+                window, to see something closer to a stranger's view
+                <ul>
+                    <li>Note: a private window mainly stops the search from being saved to your local browsing history
+                        and keeps
+                        you logged out so results aren't personalized to you - it does not hide the search from the
+                        search
+                        engine or your network. It makes the results more representative, not the search invisible.</li>
+                </ul>
+            </li>
+            <li>Check what old accounts, forum posts, or usernames tie back to your identity</li>
+            <li>Look at your social media from a stranger's view (some platforms have a "view as public" option) - what
+                does it reveal about routine, location, relationships?</li>
+            <li>Check photo metadata (EXIF data) on images you've posted - many photos embed GPS coordinates
+                automatically</li>
+            <li>Notice patterns: do you reuse the same username or profile photo across platforms? That's often how
+                accounts get linked together</li>
+            <li>🔧 ADVANCED: Use a reverse image search on your own profile photos to see where else they appear online
+            </li>
+
+        </ul>
+        <b>Common ways people get identified even when trying not to be:</b>
+        <ul>
+            <li>Reusing a distinctive username across platforms</li>
+            <li>Writing style / vocabulary that's identifiable</li>
+            <li>Posting at consistent, predictable times</li>
+            <li>Photo backgrounds (street signs, license plates, reflections, landmarks)</li>
+            <li>Friends and connections who tag or mention them</li>
+        </ul>
+        <h2>Part 3 - Communications</h2>
+        <ul>
+            <li>⭐ Move sensitive conversations to Signal instead of SMS or unencrypted chat apps</li>
+            <li>Enable disappearing messages for anything time-sensitive or planning-related</li>
+            <li>Think before you write: assume anything in text could eventually be read by someone other than the
+                intended recipient</li>
+            <li>Vary communication timing where it matters - perfectly consistent patterns (same time, every day) are
+                themselves a signal</li>
+            <li>Use different channels for different purposes - don't mix casual chat, work, and sensitive planning in
+                the same thread</li>
+            <li>🔧 ADVANCED: Set up a separate email address (and consider a separate phone number via a
+                privacy-respecting service) for sensitive organizing, kept apart from your everyday identity</li>
+            <li>🔧 ADVANCED: Use PGP or similar for sensitive email when the recipient supports it</li>
+        </ul>
+        <h2>Part 4 - Accounts & Passwords</h2>
+        <ul>
+            <li>⭐ Use unique passwords per account via a password manager (e.g., Bitwarden)</li>
+            <li>⭐ Turn on two-factor authentication - prefer an authenticator app (e.g., Aegis, Authy) over SMS, since
+                SMS can be intercepted or SIM-swapped</li>
+            <li>Separate your identities: a "legal/official" identity (banking, work), a "social" identity (friends,
+                casual), and a "sensitive/organizing" identity, each with their own email and never cross-linked</li>
+            <li>Review privacy settings on each platform you use, at least once - defaults are rarely the most private
+                option</li>
+            <li>Periodically check for account breaches (haveibeenpwned.com is a common tool for this) and rotate any
+                exposed passwords</li>
+        </ul>
+        <p>
+            <strong>Myth check:</strong> isn't a pattern more secure than a PIN? It feels that way, but research says
+            the opposite. Drawing a
+            pattern leaves a visible fingertip smudge trail on the screen - studies have reconstructed patterns from
+            smudges
+            alone up to 68% of the time. Patterns are also easier to memorize at a glance, so shoulder-surfing works
+            better
+            against them: one study found onlookers could reproduce a pattern 64% of the time after watching it entered
+            just
+            once, rising to 80% after two views. And most people pick patterns from a small, predictable set of shapes
+            (letters, simple geometric paths), shrinking the real security margin further. A 6-digit-or-longer PIN, or
+            better, an alphanumeric passcode, beats a pattern. If you're currently using a pattern lock, this is a good
+            moment to switch.
+        </p>
+        <h2>Part 6 - Browsing & Network</h2>
+        <ul>
+            <li>⭐ Switch default search engine to something that doesn't build a profile of you (DuckDuckGo, Startpage)
+            </li>
+            <li> Use a hardened Firefox (tracking protection on, telemetry off) - genuinely non-Chromium, open-source,
+                non-profit-backed</li>
+            <li> Install uBlock Origin - verify the publisher is Raymond Hill, install only from addons.mozilla.org;
+                impostor versions using similar names exist elsewhere</li>
+            <li> Add Decentraleyes to stop sites quietly leaking your IP to Google/Cloudflare CDNs for common web
+                libraries</li>
+            <li> Avoid logging into personal accounts while using Tor or a VPN for something sensitive - mixing
+                identities defeats the point</li>
+            <li> Be cautious on public/open Wi-Fi for anything sensitive; use your own mobile data instead when possible
+            </li>
+            <li>🔧 ADVANCED: NoScript for granular script blocking - powerful, but blocks JS by default and will break
+                sites until you whitelist what you trust; not for casual daily browsing</li>
+            <li>🔧 ADVANCED: Learn Tor Browser for genuinely sensitive research - it's Firefox-based, understand it's
+                slower and some sites block it, but it provides real anonymity properties a VPN doesn't</li>
+            <li>🔧 ADVANCED: If you use a VPN, understand it shifts trust from your ISP to the VPN provider - it is not
+                a magic anonymity switch, and provider choice/jurisdiction matters</li>
+        </ul>
+        <h2>Part 7 - In Public, at Events & Protests</h2>
+        <p>Higher-risk situations call for extra care. Surveillance tools like facial recognition, license plate
+            readers, and cell-site simulators exist and are in real use in many places - plan with that in mind rather
+            than being caught off guard.</p>
+        <ul>
+            <li>⭐ Don't post real-time location or "I'm here now" - post after the fact, if at all</li>
+            <li>Decide in advance, individually, your comfort level with having your phone present: bring it as normal,
+                use airplane mode, use a Faraday bag, or leave it at home entirely - these offer increasing levels of
+                protection in that order</li>
+            <li>If photographing others, get consent before naming or tagging them</li>
+            <li>Be mindful of backgrounds in photos - faces, plates, signage that could place someone somewhere they
+                didn't want documented</li>
+            <li>Agree with people you're with on what's okay to discuss in a group chat vs. only in person</li>
+            <li>🔧 ADVANCED: Know your local rules around ID requirements, recording, and device searches before you're
+                in a stressful moment trying to remember them</li>
+        </ul>
+        <h2>Part 8 - Group & Social OpSec</h2>
+        <p><b>This is the part most guides skip - and usually the actual point of failure.</b> Most real-world OpSec
+            breakdowns aren't a hacked phone; they're a person sharing something with someone who didn't need to know
+            it.</p>
+        <ul>
+            <li>Practice need-to-know: not everyone requires every detail, especially names, addresses, and specific
+                plans</li>
+            <li>If something's said in confidence, keep it there - don't relay it "just to one more person"</li>
+            <li>Don't assume default trust with new or unfamiliar people; a low-pressure way of getting to know someone
+                beats an awkward assumption later</li>
+            <li>Agree as a group, in advance, what (if anything) gets shared publicly afterward, including photos - and
+                get consent from anyone who'd be identifiable</li>
+            <li>Normalize asking "should this go in writing?" before sensitive topics come up - it's not paranoia, it's
+                just a habit worth having</li>
+        </ul>
+        <h2>Part 9 - When Things Go Wrong</h2>
+        <ul>
+            <li>Know who your point of contact is for security concerns in your group/organization</li>
+            <li>If you notice something that feels like surveillance or a compromised device, say something rather than
+                sitting on it alone</li>
+            <li>Keep a few key phone numbers memorized or written down (not just stored digitally) - a lawyer, a trusted
+                contact - in case your device isn't available</li>
+            <li>Learn from mistakes without spiraling on them - OpSec is iterative, and adjusting after a slip-up is the
+                actual practice, not a failure of it</li>
+        </ul>
+        <h2>Quick Reference</h2>
+        <table>
+            <tr>
+                <th>If you need...</th>
+                <th>Consider</th>
+            </tr>
+            <tr>
+                <td> Encrypted messaging</td>
+                <td>Signal</td>
+            </tr>
+            <tr>
+                <td>Password manager</td>
+                <td>Bitwarden</td>
+            </tr>
+            <tr>
+                <td>2FA app</td>
+                <td>Aegis (Android) / Authy</td>
+            </tr>
+            <tr>
+                <td>Private search engine</td>
+                <td>DuckDuckGo, Startpage</td>
+            </tr>
+            <tr>
+                <td>Privacy browser</td>
+                <td>Firefox (hardened)</td>
+            </tr>
+            <tr>
+                <td>Encrypted email</td>
+                <td>Proton Mail, Tutanota</td>
+            </tr>
+            <tr>
+                <td>Breach checking</td>
+                <td>haveibeenpwned.com</td>
+            </tr>
+            <tr>
+                <td>🔧 Anonymous browsing</td>
+                <td>Tor Browser</td>
+            </tr>
+            <tr>
+                <td>🔧 High-risk operating system</td>
+                <td>Tails (live USB, amnesic)</td>
+            </tr>
+            <tr>
+                <td>🔧 Cloud file encryption</td>
+                <td>Cryptomator</td>
+            </tr>
+        </table>
+
+
+
+        </table>
+        <h2>Further Learning</h2>
+        <ul>
+            <li>EFF Surveillance Self-Defense - comprehensive, regularly updated guide</li>
+
+
+        </table>
+
+
+
+        </table>
+        <h2>Further Learning</h2>
+        <ul>
+            <li>EFF Surveillance Self-Defense - comprehensive, regularly updated guide</li>
+            <li>Access Now Digital Security Helpline - free support for activists and journalists facing digital threats
+            </li>
+            <li>Local digital rights organizations in your area, if any exist</li>
+        </ul>
+        <p>No tool provides perfect protection on its own. The goal is raising the cost and reducing avoidable risk -
+            not achieving invisibility.</p>
+    </main>
+</body>
+
+</table>
+
+
+
+</table>
+
+</main>
+</body>
