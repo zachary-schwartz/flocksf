@@ -6,6 +6,8 @@ custom_head: <link rel="stylesheet" href="/resources/opsec/index.css">
 ---
 
 <body>
+    <a href="/resources/opsec-for-personal-safety.pdf" target="_blank"><img class="download" src="/images/download.svg" alt="Download PDF"></a>
+    <a class="box-link" href="/resources/opsec-for-personal-safety.pdf" target="_blank"><div class="box">PDF/Print available here</div></a>
     <main>
         <h1>OpSec for Personal Safety</h1>
         <h3>A Working Checklist</h3>
@@ -41,7 +43,8 @@ custom_head: <link rel="stylesheet" href="/resources/opsec/index.css">
                 you abandon after a week protects no one.</li>
 
         </ol>
-        <ul>
+        <br>
+        <ul class="checklist">
             <li>⭐ Write down, just for yourself, who your realistic "adversary" is and what they want - this shapes
                 everything else on this list</li>
             <li>Accept that perfect OpSec doesn't exist - the goal is raising cost and reducing the avoidable risk, not
@@ -52,16 +55,15 @@ custom_head: <link rel="stylesheet" href="/resources/opsec/index.css">
         <h2>Part 2 - Know What's Already Out There (Digital Footprint)</h2>
         <p>Before locking things down, find out what's already visible. You can't protect what you don't know is
             exposed.</p>
-        <ul>
+        <ul class="checklist">
             <li>⭐ Search your own name (plus city, employer, known usernames), logged out and in a private/incognito
                 window, to see something closer to a stranger's view
-                <ul>
-                    <li>Note: a private window mainly stops the search from being saved to your local browsing history
-                        and keeps
-                        you logged out so results aren't personalized to you - it does not hide the search from the
-                        search
-                        engine or your network. It makes the results more representative, not the search invisible.</li>
-                </ul>
+                <br> <br>
+                Note: a private window mainly stops the search from being saved to your local browsing history
+                and keeps
+                you logged out so results aren't personalized to you - it does not hide the search from the
+                search
+                engine or your network. It makes the results more representative, not the search invisible.
             </li>
             <li>Check what old accounts, forum posts, or usernames tie back to your identity</li>
             <li>Look at your social media from a stranger's view (some platforms have a "view as public" option) - what
@@ -70,10 +72,13 @@ custom_head: <link rel="stylesheet" href="/resources/opsec/index.css">
                 automatically</li>
             <li>Notice patterns: do you reuse the same username or profile photo across platforms? That's often how
                 accounts get linked together</li>
-            <li>🔧 ADVANCED: Use a reverse image search on your own profile photos to see where else they appear online
+            <li><span>🔧 <b>ADVANCED</b>: Use a reverse image search on your own profile photos to see where else they
+                    appear
+                    online</span>
             </li>
 
         </ul>
+        <br>
         <b>Common ways people get identified even when trying not to be:</b>
         <ul>
             <li>Reusing a distinctive username across platforms</li>
@@ -83,7 +88,7 @@ custom_head: <link rel="stylesheet" href="/resources/opsec/index.css">
             <li>Friends and connections who tag or mention them</li>
         </ul>
         <h2>Part 3 - Communications</h2>
-        <ul>
+        <ul class="checklist">
             <li>⭐ Move sensitive conversations to Signal instead of SMS or unencrypted chat apps</li>
             <li>Enable disappearing messages for anything time-sensitive or planning-related</li>
             <li>Think before you write: assume anything in text could eventually be read by someone other than the
@@ -92,12 +97,14 @@ custom_head: <link rel="stylesheet" href="/resources/opsec/index.css">
                 themselves a signal</li>
             <li>Use different channels for different purposes - don't mix casual chat, work, and sensitive planning in
                 the same thread</li>
-            <li>🔧 ADVANCED: Set up a separate email address (and consider a separate phone number via a
-                privacy-respecting service) for sensitive organizing, kept apart from your everyday identity</li>
-            <li>🔧 ADVANCED: Use PGP or similar for sensitive email when the recipient supports it</li>
+            <li><span>🔧 <b>ADVANCED</b>: Set up a separate email address (and consider a separate phone number via a
+                    privacy-respecting service) for sensitive organizing, kept apart from your everyday identity</span>
+            </li>
+            <li><span>🔧 <b>ADVANCED</b>: Use PGP or similar for sensitive email when the recipient supports it</span>
+            </li>
         </ul>
         <h2>Part 4 - Accounts & Passwords</h2>
-        <ul>
+        <ul class="checklist">
             <li>⭐ Use unique passwords per account via a password manager (e.g., Bitwarden)</li>
             <li>⭐ Turn on two-factor authentication - prefer an authenticator app (e.g., Aegis, Authy) over SMS, since
                 SMS can be intercepted or SIM-swapped</li>
@@ -108,8 +115,26 @@ custom_head: <link rel="stylesheet" href="/resources/opsec/index.css">
             <li>Periodically check for account breaches (haveibeenpwned.com is a common tool for this) and rotate any
                 exposed passwords</li>
         </ul>
+        <h2>Part 5 - Devices</h2>
+        <ul class="checklist">
+            <li>⭐ Strong alphanumeric passcode, not just a 4-digit PIN or biometrics alone (biometrics can sometimes be
+                legally compelled where a passcode can't)</li>
+            <li>Turn off lock-screen notification previews for messaging apps</li>
+            <li>Set a short auto-lock timer (30 sec – 2 min)</li>
+            <li>Enable full-device encryption (on by default on most modern phones, but check)</li>
+            <li>Review app permissions regularly - location, mic, camera, contacts - and revoke what isn't needed</li>
+            <li>Turn off automatic cloud backup for anything sensitive</li>
+            <li>Keep your OS and apps updated</li>
+            <li><span>🔧 <b>ADVANCED</b>: Consider device separation - a dedicated device or profile for sensitive
+                    activity,
+                    kept apart from your daily-use phone</span></li>
+            <li><span>🔧 <b>ADVANCED</b>: For serious risk levels, Tails OS (a live, amnesic operating system that
+                    leaves no
+                    trace on the host machine) is worth learning</span></li>
+        </ul>
+        <br>
         <p>
-            <strong>Myth check:</strong> isn't a pattern more secure than a PIN? It feels that way, but research says
+            <b>Myth check:</b> isn't a pattern more secure than a PIN? It feels that way, but research says
             the opposite. Drawing a
             pattern leaves a visible fingertip smudge trail on the screen - studies have reconstructed patterns from
             smudges
@@ -123,7 +148,7 @@ custom_head: <link rel="stylesheet" href="/resources/opsec/index.css">
             moment to switch.
         </p>
         <h2>Part 6 - Browsing & Network</h2>
-        <ul>
+        <ul class="checklist">
             <li>⭐ Switch default search engine to something that doesn't build a profile of you (DuckDuckGo, Startpage)
             </li>
             <li> Use a hardened Firefox (tracking protection on, telemetry off) - genuinely non-Chromium, open-source,
@@ -136,18 +161,23 @@ custom_head: <link rel="stylesheet" href="/resources/opsec/index.css">
                 identities defeats the point</li>
             <li> Be cautious on public/open Wi-Fi for anything sensitive; use your own mobile data instead when possible
             </li>
-            <li>🔧 ADVANCED: NoScript for granular script blocking - powerful, but blocks JS by default and will break
-                sites until you whitelist what you trust; not for casual daily browsing</li>
-            <li>🔧 ADVANCED: Learn Tor Browser for genuinely sensitive research - it's Firefox-based, understand it's
-                slower and some sites block it, but it provides real anonymity properties a VPN doesn't</li>
-            <li>🔧 ADVANCED: If you use a VPN, understand it shifts trust from your ISP to the VPN provider - it is not
-                a magic anonymity switch, and provider choice/jurisdiction matters</li>
+            <li><span>🔧 <b>ADVANCED</b>: NoScript for granular script blocking - powerful, but blocks JS by default and
+                    will
+                    break
+                    sites until you whitelist what you trust; not for casual daily browsing</span></li>
+            <li><span>🔧 <b>ADVANCED</b>: Learn Tor Browser for genuinely sensitive research - it's Firefox-based,
+                    understand
+                    it's
+                    slower and some sites block it, but it provides real anonymity properties a VPN doesn't</span></li>
+            <li><span>🔧 <b>ADVANCED</b>: If you use a VPN, understand it shifts trust from your ISP to the VPN provider
+                    - it
+                    is not a magic anonymity switch, and provider choice/jurisdiction matters</span></li>
         </ul>
         <h2>Part 7 - In Public, at Events & Protests</h2>
         <p>Higher-risk situations call for extra care. Surveillance tools like facial recognition, license plate
             readers, and cell-site simulators exist and are in real use in many places - plan with that in mind rather
             than being caught off guard.</p>
-        <ul>
+        <ul class="checklist">
             <li>⭐ Don't post real-time location or "I'm here now" - post after the fact, if at all</li>
             <li>Decide in advance, individually, your comfort level with having your phone present: bring it as normal,
                 use airplane mode, use a Faraday bag, or leave it at home entirely - these offer increasing levels of
@@ -156,14 +186,16 @@ custom_head: <link rel="stylesheet" href="/resources/opsec/index.css">
             <li>Be mindful of backgrounds in photos - faces, plates, signage that could place someone somewhere they
                 didn't want documented</li>
             <li>Agree with people you're with on what's okay to discuss in a group chat vs. only in person</li>
-            <li>🔧 ADVANCED: Know your local rules around ID requirements, recording, and device searches before you're
-                in a stressful moment trying to remember them</li>
+            <li><span>🔧 <b>ADVANCED</b>: Know your local rules around ID requirements, recording, and device searches
+                    before
+                    you're
+                    in a stressful moment trying to remember them</span></li>
         </ul>
         <h2>Part 8 - Group & Social OpSec</h2>
         <p><b>This is the part most guides skip - and usually the actual point of failure.</b> Most real-world OpSec
             breakdowns aren't a hacked phone; they're a person sharing something with someone who didn't need to know
             it.</p>
-        <ul>
+        <ul class="checklist">
             <li>Practice need-to-know: not everyone requires every detail, especially names, addresses, and specific
                 plans</li>
             <li>If something's said in confidence, keep it there - don't relay it "just to one more person"</li>
@@ -175,7 +207,7 @@ custom_head: <link rel="stylesheet" href="/resources/opsec/index.css">
                 just a habit worth having</li>
         </ul>
         <h2>Part 9 - When Things Go Wrong</h2>
-        <ul>
+        <ul class="checklist">
             <li>Know who your point of contact is for security concerns in your group/organization</li>
             <li>If you notice something that feels like surveillance or a compromised device, say something rather than
                 sitting on it alone</li>
@@ -185,66 +217,54 @@ custom_head: <link rel="stylesheet" href="/resources/opsec/index.css">
                 actual practice, not a failure of it</li>
         </ul>
         <h2>Quick Reference</h2>
-        <table>
-            <tr>
-                <th>If you need...</th>
-                <th>Consider</th>
-            </tr>
-            <tr>
-                <td> Encrypted messaging</td>
-                <td>Signal</td>
-            </tr>
-            <tr>
-                <td>Password manager</td>
-                <td>Bitwarden</td>
-            </tr>
-            <tr>
-                <td>2FA app</td>
-                <td>Aegis (Android) / Authy</td>
-            </tr>
-            <tr>
-                <td>Private search engine</td>
-                <td>DuckDuckGo, Startpage</td>
-            </tr>
-            <tr>
-                <td>Privacy browser</td>
-                <td>Firefox (hardened)</td>
-            </tr>
-            <tr>
-                <td>Encrypted email</td>
-                <td>Proton Mail, Tutanota</td>
-            </tr>
-            <tr>
-                <td>Breach checking</td>
-                <td>haveibeenpwned.com</td>
-            </tr>
-            <tr>
-                <td>🔧 Anonymous browsing</td>
-                <td>Tor Browser</td>
-            </tr>
-            <tr>
-                <td>🔧 High-risk operating system</td>
-                <td>Tails (live USB, amnesic)</td>
-            </tr>
-            <tr>
-                <td>🔧 Cloud file encryption</td>
-                <td>Cryptomator</td>
-            </tr>
-        </table>
-
-
-
-        </table>
-        <h2>Further Learning</h2>
-        <ul>
-            <li>EFF Surveillance Self-Defense - comprehensive, regularly updated guide</li>
-
-
-        </table>
-
-
-
-        </table>
+        <div style="display: flex; justify-content: center;">
+            <table>
+                <tr>
+                    <th>If you need...</th>
+                    <th>Consider</th>
+                </tr>
+                <tr>
+                    <td> Encrypted messaging</td>
+                    <td>Signal</td>
+                </tr>
+                <tr>
+                    <td>Password manager</td>
+                    <td>Bitwarden</td>
+                </tr>
+                <tr>
+                    <td>2FA app</td>
+                    <td>Aegis (Android) / Authy</td>
+                </tr>
+                <tr>
+                    <td>Private search engine</td>
+                    <td>DuckDuckGo, Startpage</td>
+                </tr>
+                <tr>
+                    <td>Privacy browser</td>
+                    <td>Firefox (hardened)</td>
+                </tr>
+                <tr>
+                    <td>Encrypted email</td>
+                    <td>Proton Mail, Tutanota</td>
+                </tr>
+                <tr>
+                    <td>Breach checking</td>
+                    <td>haveibeenpwned.com</td>
+                </tr>
+                <tr>
+                    <td>🔧 Anonymous browsing</td>
+                    <td>Tor Browser</td>
+                </tr>
+                <tr>
+                    <td>🔧 High-risk operating system</td>
+                    <td>Tails (live USB, amnesic)</td>
+                </tr>
+                <tr>
+                    <td>🔧 Cloud file encryption</td>
+                    <td>Cryptomator</td>
+                </tr>
+            </table>
+        </div>
         <h2>Further Learning</h2>
         <ul>
             <li>EFF Surveillance Self-Defense - comprehensive, regularly updated guide</li>
@@ -253,7 +273,75 @@ custom_head: <link rel="stylesheet" href="/resources/opsec/index.css">
             <li>Local digital rights organizations in your area, if any exist</li>
         </ul>
         <p>No tool provides perfect protection on its own. The goal is raising the cost and reducing avoidable risk -
-            not achieving invisibility.</p>
+            not achieving invisibility.
+            <br> <br> <br>
+            <hr>
+            <br>
+        <h1>OpSec For Personal Signal Security:</h1>
+        <p> <b> For a Full Comprehensive Activist Checklist and Guide on Proper Signal Security:
+                <a href="https://activistchecklist.org/signal/#identity" target="_blank" noreferrer noopener>Click
+                    Here</a> or type in this link https://activistchecklist.org/signal/#identity </b></p>
+        <h2>Hiding Your Identity On Signal:</h2>
+        <ul class="checklist">
+            <li>Don't use your real name or photo on your Signal profile</li>
+            <ul>
+                <li>Helps protect you from cops or attackers who want to de-anonymize you. Especially useful if you are
+                    in unvetted Signal groups.</li>
+            </ul>
+            <li>Enable username and hide phone number</li>
+            <ul>
+                <li>If you want to have the option to be anonymous on Signal, protecting your phone number helps protect
+                    your identity.</li>
+            </ul>
+            <li>Disable link previews</li>
+            <ul>
+                <li>Can protect you against your approximate location being revealed</li>
+            </ul>
+            <li>Enable "Always Relay Calls"</li>
+        </ul>
+        <h2>Protecting Your Messages and Calls:</h2>
+        <ul class="checklist">
+            <li><span><b>**Important**</b> Change your default settings so all new Signal threads have disappearing
+                    messages enabled</span></li>
+            <ul>
+                <li>This keeps everyone safer if someone's phone is ever confiscated or breached.</li>
+            </ul>
+            <li><span><b>**Important**</b> Disable face/fingerprint unlock (biometric)!</li>
+            <ul>
+                <li>You have stronger legal standing with a passcode than with biometric unlock. Cops can try to force
+                    you to unlock with biometrics.</span></li>
+            </ul>
+            <li><span><b>**Important**</b> Enable Lockdown Mode (iPhone) or Advanced Protection (Google &
+                    Android)</span></li>
+            <li>Hide message preview and sender name for Signal notifications</li>
+            <ul>
+                <li>If your phone is confiscated, the cops can no longer get access to your notification history.</li>
+            </ul>
+            <li>Enable "Screen Lock" and "Hide in App Switcher"</li>
+            <ul>
+                <li>If you hand your phone to someone, Screen Lock is an extra layer of security.</li>
+            </ul>
+            <li>Disable "Show Calls in Recents" (iPhone-only)</li>
+            <li>Leave Signal groups that might put others at risk</li>
+            <ul>
+                <li>This helps protect your network if your phone is confiscated.</li>
+            </ul>
+            <li>Enable Signal PIN and Registration lock</li>
+            <ul>
+                <li>Protects you from advanced attacks where someone "steals" your phone number and registers it on
+                    Signal</li>
+            </ul>
+            <li>Enable a private keyboard for Signal (Android-only)</li>
+            <li>Disable AI notification summaries!</li>
+            <li>Be alert for fake messages from "Signal Support" trying to get your Signal PIN or verification code</li>
+            <li>Protect your account by being attentive not to turn over your verification code or PIN</li>
+        </ul>
+
+
+        <br> <br>
+        <i>The information provided on this website is for educational and informational purposes only. We cannot
+            guarantee the safety or effectiveness of any technique for your specific situation. This is not legal
+            advice.</i>
     </main>
 </body>
 

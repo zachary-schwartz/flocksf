@@ -1,3 +1,45 @@
+@media screen and (min-width: 1230px) {
+.box{
+    width: 200px;
+    right: 30px;
+    margin-top: 180px;
+    height: 100px;
+    background-color: #282828;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 0.25rem;
+    border-radius: 10px;
+    font-family: arial, sans-serif;
+    visibility: visible;
+}
+
+.download{
+    visibility: hidden;
+}
+}
+@media screen and (max-width: 1230px) { 
+    .box{
+        visibility: hidden;}
+        .box-link{
+            visibility: hidden;
+        }
+        .download{
+            right: 30px;
+            margin-top: 10px;
+            position: absolute;
+            visibility: visible;
+            width: 40px;
+}
+}
+
+
+    
+a, a:visited, a:hover, a:active{
+color: white;
+}
+
 main {
 max-width: 800px;
 margin-left: 20px;
@@ -11,10 +53,26 @@ h1 {
     color: #FFFAFF;
     width: 100%;
     text-align: center;
+    padding-bottom: 30px;
 }
 
 p, h2, h3, h4, li, b, table, th, td {
     font-family: arial, sans-serif;
+
+}
+
+ol, ul, li{
+    line-height: 1.1rem;
+    margin-bottom: 1.1rem;
+}
+
+p {
+    line-height: 1.6;
+    margin-bottom: 1.5rem;
+}
+
+h2{
+    padding-top: 40px;
 }
 
 th, td{
@@ -22,4 +80,21 @@ th, td{
   padding: 8px;
   text-align: left;
   width: 250px;
+}
+
+ul.checklist {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+ul.checklist li {
+  display: flex;
+  align-items: flex-start;
+}
+
+ul.checklist li::before {
+  content: "\2610";
+  margin-right: 10px;
+  font-size: 1.2rem;
+  flex-shrink: 0;  
 }
