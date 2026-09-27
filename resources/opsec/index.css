@@ -50,15 +50,14 @@ margin-inline: auto;
 h1 {
     font-family: "Space Grotesk", sans-serif;
     font-size: 50px;
-    color: #FFFAFF;
+    color: white;
     width: 100%;
     text-align: center;
     padding-bottom: 30px;
 }
 
-p, h2, h3, h4, li, b, table, th, td {
+p, h2, h3, h4, li, b, th, td {
     font-family: arial, sans-serif;
-
 }
 
 ol, ul, li{
@@ -76,10 +75,15 @@ h2{
 }
 
 th, td{
-  border: 1px solid #ddd;
+  border: 1px solid white;
   padding: 8px;
   text-align: left;
   width: 250px;
+
+}
+
+table {
+  border-collapse: collapse;
 }
 
 ul.checklist {
