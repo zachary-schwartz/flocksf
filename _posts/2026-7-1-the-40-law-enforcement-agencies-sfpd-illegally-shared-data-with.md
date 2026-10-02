@@ -67,3 +67,8 @@ Last month SFPD Police Chief Derrick Lew revealed that over the span of a year n
 - Oregon State Police
   - OSP Klamath Falls
 - Statewide Terrorism Analysis & Crime Center - Ohio Homeland Security
+
+<br>
+<br>
+
+#### *Posted on {{ page.date | date: '%B %d, %Y' }}*
