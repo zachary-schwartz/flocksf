@@ -1,3 +1,5 @@
 url: "https://deflocksf.org"
 baseurl: ""
 description: "Tracking Flock surveillance ALPRs in San Francisco, California."
+plugins:
+  - jekyll-sitemap
